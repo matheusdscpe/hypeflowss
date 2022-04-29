@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+section{
+    font-family: Sans-serif;
+    text-align: center;
+    color: grey;
+}
+
+img{
+    animation-duration: 5s;
+    animation-name: transition;
+    animation-iteration-count: infinite;
+}
+    @keyframes transition {
+        from {
+            opacity: 0;
+          }
+        50%{
+            opacity: 50;
+        }
+          to {
+            opacity: 0;
+          }
+        
+    }
