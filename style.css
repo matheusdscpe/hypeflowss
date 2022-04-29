@@ -10,6 +10,8 @@ section{
 }
 
 img{
+    border: 0;
+    margin: 0%;
     animation-duration: 5s;
     animation-name: transition;
     animation-iteration-count: infinite;
